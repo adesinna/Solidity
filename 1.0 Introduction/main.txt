@@ -1,0 +1,13 @@
+contract MyContract {
+    string public myString = "Hello world"; 
+
+    function updateOurString(string memory _myString) public {
+        myString = _myString;
+    }
+}
+
+
+The contract is like a class. 
+you declare a variable and public makes it interactive
+The method updateOurString will be interactive, it ask for input _myString, also note that when you use strings in as arguments
+string and  memory are required to be in front before you use it.
