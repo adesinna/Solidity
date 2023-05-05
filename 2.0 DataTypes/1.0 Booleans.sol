@@ -9,5 +9,12 @@ contract ExampleBoolean { // the contract
     function setMyBool(bool _myBool) public {
         myBool = _myBool;
     }
+    /* 
+    || means or
+    && means add
+    == equal to
+    != not equal to
+    !  not 
+    */
 
 }
